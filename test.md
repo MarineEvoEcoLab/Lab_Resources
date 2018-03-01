@@ -165,6 +165,6 @@ Students are expected to be honest in all academic work. A student’s name on a
 * Submitting the same paper for more than one course without prior approval from the instructors.
 
 
-** This syllabus, schedule, and deadlines are subject to change due to unforeseen circumstances. Students will be notified of any changes via announcement on Sakai. **
+***This syllabus, schedule, and deadlines are subject to change due to unforeseen circumstances. Students will be notified of any changes via announcement on Sakai.***
 
 
