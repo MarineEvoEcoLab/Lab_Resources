@@ -111,20 +111,12 @@ The exams focus on taxonomic relationships, adaptation, functional biology and e
 
 Letter grades will be assigned following the chart below:
 
-|Grade| % |
-|----|----|
-|A+	|98-100|
-|A	|93-97|
-|A-	|90-92|
-|B+	|88-89|
-|B	|83-87|
-|B-	|80-82|
-|C+	|78-79|
-|C	|73-77|
-|C-	|70-72|
-|D+	|68-69|
-|D	|60-67|
-|F	|<60|
+|Grade| % |Grade| % |Grade| % |
+|----|----|----|----|----|----|
+|A+	|98-100| A	|93-97|A-	|90-92|
+|B+	|88-89| B	|83-87| B-	|80-82|
+|C+	|78-79| C	|73-77| C-	|70-72|
+|D+	|68-69| D	|60-67|F	|<60|
 
 
 #### Participation 
