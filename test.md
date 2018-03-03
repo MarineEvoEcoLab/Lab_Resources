@@ -110,6 +110,7 @@ The exams focus on taxonomic relationships, adaptation, functional biology and e
 ### Letter Grade Conversion
 
 Letter grades will be assigned following the chart below:
+
 |Grade| % |
 |----|----|
 |A+	|98-100|
