@@ -107,6 +107,25 @@ The exams focus on taxonomic relationships, adaptation, functional biology and e
 |Quizes| 20%|
 |Participation| 20%|
 
+### Letter Grade Conversion
+
+Letter grades will be assigned following the chart below:
+|Grade| % |
+|----|----|
+|A+	|98-100|
+|A	|93-97|
+|A-	|90-92|
+|B+	|88-89|
+|B	|83-87|
+|B-	|80-82|
+|C+	|78-79|
+|C	|73-77|
+|C-	|70-72|
+|D+	|68-69|
+|D	|60-67|
+|F	|<60|
+
+
 #### Participation 
 Attendance and participation are mandatory.  University excused absences with at least two weeks advance notice may be rescheduled or otherwise accommodated at the discretion of the instructor. Students will receive participation points for each laboratory meeting in which you actively contribute.  Active participation includes working well with lab partners and classmates, learning all required skills, taking notes, taking part in relevant discussions and working until the end of class. Students will lose participation points if they are late.  Noticeable absence of general participation, as defined above, will result loss of points for that exercise. 
 
