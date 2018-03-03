@@ -17,17 +17,17 @@ Study of the general biology and evolutionary relationship of the invertebrate a
 Throughout the semester we will focus on the ecology, evolution, behavior, physiology, anatomy, and development of a cross section of "invertebrate" animals. With approximately 2 to >10 MILLION species of invertebrates, across approximately 35 phyla, all occupying this planet alongside us rare vertebrates, this course will be broad survey of the majority of biodiversity on our planet.
 
 ## Course Goals and Student Learning Outcomes
-The overall outcome of this course is to promote the knowledge and understanding of 99% of all animal biodiversity, including morphology, life-history, ecology, and evolution.  In order to master this material, the outcomes of BIO 354 include that students acquire factual knowledge, synthesize taxonmic relationships based on shared and derived characteristics, and gain an appreciation for the breadth of diversity.
+The overall outcome of this course is to promote the knowledge and understanding of 99% of all animal biodiversity, including morphology, life-history, ecology, and evolution.  In order to master this material, the outcomes of BIO 354 include that students acquire factual knowledge, synthesize taxonomic relationships based on shared and derived characteristics, and gain an appreciation for the breadth of diversity.
 
 After completing this course, students should be able to:
 * Identify virtually any invertebrate specimen to Phylum and Class
-* Identify shared and derived characteristics of Classes, Phyla, and larger phylogentic groupings
+* Identify shared and derived characteristics of Classes, Phyla, and larger phylogenetic groupings
 * Synthesize all taxonomic knowledge to understand larger evolutionary patterns
 
 ## Readings
-Required readings will be assigned weekling from recent primary scientific literature corresponding to the taxonomic group being covered.  
+Required readings will be assigned weekly from recent primary scientific literature corresponding to the taxonomic group being covered.  
 
-An optional but recommended text is *Biology of the Invertebrates*, by Jan Pechenik (7th edition).  The corresponding chapters (indicated on the syllabus) will give a distinct advantage towards understanding the course material.  The exceptions are current phylogenetic relationships and larger taxonmic classification/organization.  Recent advances in molecular and genomic techniques have lead to rapid advancement in the field which will be captured by the assigned primary literature
+An optional but recommended text is *Biology of the Invertebrates*, by Jan Pechenik (7th edition).  The corresponding chapters (indicated on the syllabus) will give a distinct advantage towards understanding the course material.  The exceptions are current phylogenetic relationships and larger taxonomic classification/organization.  Recent advances in molecular and genomic techniques have led to rapid advancement in the field which will be captured by the assigned primary literature
 
 Lastly, lecture PowerPoints, past exams, films, web sites and supporting material will all be included on Sakai.  *It is your responsibility to log in to Sakai **daily** and be up to date with all information posted pertaining to class.*
 
@@ -104,7 +104,7 @@ The exams focus on taxonomic relationships, adaptation, functional biology and e
 |Practical I| 20%|
 |Practical II| 20%|
 |Research Paper| 20%|
-|Quizes| 20%|
+|Quizzes| 20%|
 |Participation| 20%|
 
 ### Letter Grade Conversion
@@ -126,7 +126,7 @@ Attendance and participation are mandatory.  University excused absences with at
 There will be two practical exams during the semester.  These will cover the material learned in lab.  Students will be responsible for knowing correct nomenclature of the organisms studied including their anatomy and defining features.  In order to be prepared for these exams, students need to pay close attention in each lab, knowing all highlighted material and performing all directed tasks.  Due to the complexity of setting up a practical there are no makeup practicals.  You must attend unless you have a University Sanctioned reason for missing (refer to student handbook). 
 
 #### Laboratory Quizes
-There will be approximately 6-8 short quizzes throughout the semester.  They will be at the start of the lab, but will not be scheduled in advance.  The quiz will cover material from both the previous lab and, possibly, background material for the exercise to be performed that day, if provided.  This means that students must be familiar with the day's lab material before class.  Quizzes will be at the beginning of lab and take 10 mins.  There will be no make up quizzes, and tardiness will result in less time to complete the quiz.
+There will be approximately 6-8 short quizzes throughout the semester.  They will be at the start of the lab but will not be scheduled in advance.  The quiz will cover material from both the previous lab and, possibly, background material for the exercise to be performed that day, if provided.  This means that students must be familiar with the day's lab material before class.  Quizzes will be at the beginning of lab and take 10 mins.  There will be no make-up quizzes, and tardiness will result in less time to complete the quiz.
 
 ## Lab Guidelines
 **Dress appropriately:** closed-toed shoes, long pants, and safety goggles/glasses (without these the student will be dismissed from lab). Long hair should be tied back.  Failure to meet safety standards will result in being sent home by the laboratory instructor and losing all participation points for that lab.
@@ -152,7 +152,7 @@ This is a challenging course. Success requires that you keep pace with the work,
 Students are expected to treat faculty and fellow classmates with dignity and respect.  Students are responsible for being familiar with and adhering to the published "Student Code of Conduct" which can be accessed in the University Student Handbook (http://web.uri.edu/studentconduct/student-handbook/).  If you must come in late, please do not disrupt the class. Please turn off all cell phones, e-watches, or any electronic devices.
 
 ## Academic Honesty
-Students are expected to be honest in all academic work. A student’s name on any written work, quiz or exam shall be regarded as assurance that the work is the result of the student’s own independent thought and study. Work should be stated in the student’s own words, properly attributed to its source.   Students have an obligation to know how to quote, paraphrase, summarize, cite and reference the work of others with integrity. The following are examples of academic dishonesty.
+Students are expected to be honest in all academic work. A student's name on any written work, quiz or exam shall be regarded as assurance that the work is the result of the student's own independent thought and study. Work should be stated in the student's own words, properly attributed to its source.   Students have an obligation to know how to quote, paraphrase, summarize, cite and reference the work of others with integrity. The following are examples of academic dishonesty.
 
 * Using material, directly or paraphrasing, from published sources (print or electronic) without appropriate citation
 
@@ -162,7 +162,7 @@ Students are expected to be honest in all academic work. A student’s name on a
 
 * Unauthorized communication during exams
 
-* Unauthorized use of another’s work or preparing work for another student
+* Unauthorized use of another's work or preparing work for another student
 
 * Taking an exam for another student
 
@@ -172,7 +172,7 @@ Students are expected to be honest in all academic work. A student’s name on a
 
 * Fabricating or falsifying facts, data or references
 
-* Facilitating or aiding another’s academic dishonesty
+* Facilitating or aiding another's academic dishonesty
 
 * Submitting the same paper for more than one course without prior approval from the instructors.
 
