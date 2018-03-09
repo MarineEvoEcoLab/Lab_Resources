@@ -113,7 +113,7 @@ Letter grades will be assigned following the chart below:
 
 |Grade| % |Grade| % |Grade| % |
 |----|----|----|----|----|----|
-|A+	|98-100| A	|93-97|A-	|90-92|
+| A	|94-100|A-	|90-93|||
 |B+	|88-89| B	|83-87| B-	|80-82|
 |C+	|78-79| C	|73-77| C-	|70-72|
 |D+	|68-69| D	|60-67|F	|<60|
@@ -127,6 +127,13 @@ There will be two practical exams during the semester.  These will cover the mat
 
 #### Laboratory Quizes
 There will be approximately 6-8 short quizzes throughout the semester.  They will be at the start of the lab but will not be scheduled in advance.  The quiz will cover material from both the previous lab and, possibly, background material for the exercise to be performed that day, if provided.  This means that students must be familiar with the day's lab material before class.  Quizzes will be at the beginning of lab and take 10 mins.  There will be no make-up quizzes, and tardiness will result in less time to complete the quiz.
+
+#### Laboratory Research Paper
+Students will write a review article to practice these important research skills:
+-	Identify recent literature on a topic in invertebrate biology.
+-	Understand and characterize how new research has produced progress in the field.
+-	Synthesize the results from several studies to produce a balanced assessment of their combined contribution, attempt to reconcile differences in findings and conclusions among authors.  Full guidelines and grading rubric for the research paper will be distributed during the second week of lab.
+
 
 ## Lab Guidelines
 **Dress appropriately:** closed-toed shoes, long pants, and safety goggles/glasses (without these the student will be dismissed from lab). Long hair should be tied back.  Failure to meet safety standards will result in being sent home by the laboratory instructor and losing all participation points for that lab.
@@ -146,7 +153,7 @@ Any student with a documented disability is welcome to contact me as early in th
 "Section 504 of the Rehabilitation act of 1973 and the Americans with Disabilities Act of 1990 require the University of Rhode Island to provide academic adjustments or the accommodations for students with documented disabilities. The student with a disability shall be responsible for self-identification to the Disability Services for Students in the Office of Student Life, providing appropriate documentation of disability, requesting accommodation in a timely manner, and follow-through regarding accommodations requested."  It is the student's responsibility to make arrangements for any special needs and the instructor's responsibility to accommodate them with the assistance of the Office of Disability Services for Students. More resources are available here: http://web.uri.edu/disability/
 
 ## Course Assistance
-This is a challenging course. Success requires that you keep pace with the work, understand course concepts, and study effectively. The Academic Enhancement Center helps URI students succeed through three services: Academic Coaching, Tutoring, and The Writing Center. To learn more about any of these services, please visit web.uri.edu/aec or call 401-874- 2367 to speak with reception staff In Providence, the Academic Skills Center (ASC) is at 239 Shepard Building, (401) 277-5221. Hours are posted each semester at http://web.uri.edu/ceps/academic-skills-center/
+This is a challenging course. Success requires that you keep pace with the work, understand course concepts, and study effectively. The Academic Enhancement Center (AEC) helps URI students succeed through three services: Academic Coaching, Tutoring, and The Writing Center. The AEC is in Roosevelt Hall, and AEC staff assist students with academic skills development as well as course-based content. AEC tutors can answer questions, clarify concepts, check understanding, and help you learn to study effectively. For a complete description of services and schedules, visit uri.edu/aec, call (401) 874-2367, or stop by the fourth floor in Roosevelt Hall.
 
 ## Conduct and Behavior
 Students are expected to treat faculty and fellow classmates with dignity and respect.  Students are responsible for being familiar with and adhering to the published "Student Code of Conduct" which can be accessed in the University Student Handbook (http://web.uri.edu/studentconduct/student-handbook/).  If you must come in late, please do not disrupt the class. Please turn off all cell phones, e-watches, or any electronic devices.
