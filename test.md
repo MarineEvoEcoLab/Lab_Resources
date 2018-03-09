@@ -147,8 +147,7 @@ Students will write a review article to practice these important research skills
 
 ## Accommodations
 
-Any student with a documented disability is welcome to contact me as early in the semester as possible so that we may arrange reasonable accommodations. As part of this process, please be in touch with Disability Services for Students Office at 330 Memorial Union, 401-874-2098 (http://www.uri.edu/disabilittddss/) or the Academic Skills Center, 239 Shepard Building, Alan Shawn Feinstein Providence Campus, 401-277-5221 
-(http://web.uri.edu/ceps/academic-skills-center/). 
+Any student with a documented disability is welcome to contact me as early in the semester as possible so that we may arrange reasonable accommodations. As part of this process, please be in touch with Disability Services for Students Office at 330 Memorial Union, 401-874-2098 (http://www.uri.edu/disabilittddss/). 
 
 "Section 504 of the Rehabilitation act of 1973 and the Americans with Disabilities Act of 1990 require the University of Rhode Island to provide academic adjustments or the accommodations for students with documented disabilities. The student with a disability shall be responsible for self-identification to the Disability Services for Students in the Office of Student Life, providing appropriate documentation of disability, requesting accommodation in a timely manner, and follow-through regarding accommodations requested."  It is the student's responsibility to make arrangements for any special needs and the instructor's responsibility to accommodate them with the assistance of the Office of Disability Services for Students. More resources are available here: http://web.uri.edu/disability/
 
