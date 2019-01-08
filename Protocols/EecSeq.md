@@ -686,7 +686,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 
 #### Procedure
 
-* ## First pool individual RNA libraries in equal quantities to create a single pool, we have experiemented with 500 ng total or 200ng of each library. 
+### First pool individual RNA libraries in equal quantities to create a single pool, we have experiemented with 500 ng total or 200ng of each library. 
 
 * Create a 4X hybridization solution
 
@@ -844,7 +844,7 @@ _Originally the number of cycles was set to 12, however after a second try 14 wo
 	* 2.5μL 10X KAPA Library Amplification Primer Mix
 * Remaining volume saved 
 
-## After the additional 4 cycle PCR, pool the four tubes together and perform a 1.6X SPRI® cleanup 
+### After the additional 4 cycle PCR, pool the four tubes together and perform a 1.6X SPRI® cleanup 
 
 |Component|Volume|
 |---------|------|
@@ -1087,7 +1087,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 
 **If you pooled your probes after Biotin Labeling, do _THIS_ 1.5X SPRI® cleanup**
 
-|Component|Volume for 4 Biotin Reaction|
+|Component|Volume for 4 Biotin Reactions|
 |---------|------|
 |Biotin reaction| 200 μl|
 |Agencourt® AMPure® XP reagent| 300 μl|
