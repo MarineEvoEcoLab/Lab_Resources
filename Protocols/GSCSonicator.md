@@ -1,6 +1,6 @@
 ## Protocol For Sonicator in the Genomics and Sequencing Core
 
-### Get tubes from Janet Atoyan in GSC or order [LINK] (http://covaris.corecommerce.com/microTUBE-AFA-Fiber-Pre-Slit-Snap-Cap-6x16mm-25-p23.html)
+### Get tubes from Janet Atoyan in GSC or order [LINK](http://covaris.corecommerce.com/microTUBE-AFA-Fiber-Pre-Slit-Snap-Cap-6x16mm-25-p23.html)
 
 **If you plan to sonicate in the morning tell Janet the day before and she will turn on the machine when she leaves. The machine needs at least 4 hours to cool down the water temp to ~6°C, you also need to turn on the computer 30 minutes before starting. Prepare you time appropriately**
 * Create numbering system with 1-x for your samples and number Covaris tubes appropirately. There is very little room on the Covaris tubes for writing 
