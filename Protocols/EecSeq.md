@@ -9,7 +9,7 @@ The Expressed Exome Capture Sequencing protocol is designed to create exome capt
 [RNA Prep](#rna-prep)
 * [RNA Extraction](#extract-rna-from-individuals-to-be-used-for-probes)
 * [Quantify](#quantify-all-rna-samples)
-* [Visualize](#visualize-rna-on-bioanalyzer)
+* [Visualize](#visualize-rna-on-Tape-Station)
 * [mRNA Library Prep](#stranded-mrna-seq-library-prep)
 	* [Anneal adapters](#anneal-rna-adapters)
 	* [mRNA capture](#mrna-capture)
@@ -53,9 +53,9 @@ Before you begin this protocol, you should order the custom oligos required for 
 
 ## RNA Prep
 
-### Extract DNA and RNA from individuals to be used for probes and capture
+### Extract RNA from individuals to be used for probes
 *Refer to manual during procedure (steps below are for notes and comments)*
-### Using slightly modified Zymo Duet DNA/RNA extraction protocol [LINK](https://www.zymoresearch.com/media/amasty/amfile/attach/_D7003_ZR-Duet_DNA-RNA_MiniPrep_Plus_ver_1.0.1.pdf) (Below are summary steps)
+### Using slightly modified Zymo Duet DNA/RNA extraction protocol [LINK](https://www.zymoresearch.com/media/amasty/amfile/attach/_D7003_ZR-Duet_DNA-RNA_MiniPrep_Plus_ver_1.0.1.pdf) which will extract both DNA and RNA at the same time (Below are summary steps)
 
 #### Reagents and supplies
 * RNase-free Water
@@ -136,7 +136,9 @@ Refer to manual during procedure (steps below are for notes and comments)
 * Insert a sample tube into the sample chamber, close the lid, then press Read tube. When the reading is complete (~3 seconds), remove the sample tube.
 * Repeat step last step until all samples have been read
 
-## Visualize RNA on Tape Staton (Agilent Technologies 4200 Tape Station)
+## Visualize RNA on Tape Station 
+
+### (Agilent Technologies 4200 Tape Station)
 
 * Take out RNA tape, loading buffer, and ladder and allow for 30 min to aquilibrate to room temp
 * Thaw sample RNA and ladder on ice
@@ -151,6 +153,8 @@ Refer to manual during procedure (steps below are for notes and comments)
 * Put in tape and load in samples (take off cap) and press start
 
 **Genomic DNA and smaller fragment DNA Tape Station protocols are basically the same, just using the appropriate buffer, ladder, and tape, does not include the de-nature step, and uses 10μL of buffer**
+
+## Stranded mRNA Seq Library Prep
 
 #### Reagents 
 
