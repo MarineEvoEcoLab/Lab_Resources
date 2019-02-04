@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 export LC_ALL=en_US.UTF-8
+export SHELL=bash
 
 ##########dDocent##########
-VERSION='2.7.1'
+VERSION='2.7.6'
 #This script serves as an interactive bash wrapper to QC, assemble, map, and call SNPs from double digest RAD (SE or PE), ezRAD (SE or PE) data, or SE RAD data.
 #It requires that your raw data are split up by tagged individual and follow the naming convention of:
 
@@ -65,7 +66,7 @@ FREEB=(`freebayes | grep -oh 'v[0-9].*' | cut -f1 -d "." | sed 's/v//' `)
         	echo "Please install at least version 1.0.0"
         	exit 1
         fi  
-SEQTK=( `seqtk 2>&1  | grep Version | cut -f2 -d ":" |  sed 's/1.[1-9]-r//g' | sed 's/-dirty//g' `)
+SEQTK=( `seqtk 2>&1  | grep Version | cut -f2 -d ":" |  sed 's/1.[0-9]-r//g' | sed 's/-dirty//g' `)
 	if [ "$SEQTK" -lt "102" ]; then
 		echo "The version of seqtk installed in your" '$PATH' "is not optimized for dDocent."
         	echo "Please install at least version 1.2-r102-dirty"
@@ -99,7 +100,21 @@ BTC=$( bedtools --version | mawk '{print $2}' | sed 's/v//g' | cut -f1,2 -d"." |
 		echo "Please install version 2.23.0 or version 2.26.0 and above"
 		exit 1	
 	fi
-		
+	
+FASTP=$(fastp -v 2>&1 | cut -f2 -d " ")
+FASTP1=$(echo $FASTP | cut -f1 -d ".")
+FASTP2=$(echo $FASTP | cut -f2 -d ".")
+FASTP3=$(echo $FASTP | cut -f3 -d ".")
+	if [ "$FASTP1" -lt "2" ]; then
+		if [ "$FASTP2" -lt "20" ]; then
+			if [ "$FASTP2" -lt "5" ]; then
+				echo "The version of fastp installed in your" '$PATH' "is not optimized for dDocent."
+				echo "Please install version 0.19.5 or above"
+				exit 1
+			fi
+		fi
+	fi
+	
 if ! sort --version | fgrep GNU &>/dev/null; then
 	sort=gsort
 else
@@ -403,12 +418,15 @@ if [ "$SNP" != "no" ]; then
 	call_genos(){
 		samtools view -@$FB2 -b -1 -L mapped.$1.bed -o split.$1.bam filter.merged.bam
 		samtools index split.$1.bam
-		freebayes -b split.$1.bam -t mapped.$1.bed -v raw.$1.vcf -f reference.fasta -m 5 -q 5 -E 3 --min-repeat-entropy 1 -n 10 --populations popmap
+		freebayes -b split.$1.bam -t mapped.$1.bed -v raw.$1.vcf -f reference.fasta -m 5 -q 5 -E 3 -V -n 10 --pooled-continuous 2> fb.$1.error.log
+
 		if [ $? -eq 0 ]; then
     			echo "freebayes instance $1 completed successfully." >> freebayes.log
     			rm split.$1.bam*
+			rm fb.$1.error.log
 		else
     			echo -e "\n\nERROR: freebayes instance DID NOT COMPLETE\n\nSee below:"
+			cat fb.$1.error.log
 			echo -e "$?" "\t" "$1" >> freebayes.error
 			exit 1
 		fi
@@ -419,7 +437,7 @@ if [ "$SNP" != "no" ]; then
         call_genos2(){
 		samtools view -@$FB2 -b -1 -L mapped.$1.bed -o split.$1.bam split.bam
                 samtools index split.$1.bam
-                freebayes -b split.$1.bam -t mapped.$1.bed -v raw.$1.vcf -f ../reference.fasta -m 5 -q 5 -E 3 --min-repeat-entropy 1 -n 10 --populations ../popmap -n 10
+                freebayes -b split.$1.bam -t mapped.$1.bed -v raw.$1.vcf -f ../reference.fasta -m 5 -q 5 -E 3 -V -n 10 --pooled-continuous 
                 if [ $? -eq 0 ]; then
                         rm split.$1.bam*
                 else
@@ -543,16 +561,19 @@ fi
 ##Checking for possible errors
 
 if [ "$MAP" != "no" ]; then
-ERROR1=$(mawk '/developer/' bwa* 2>/dev/null | wc -l 2>/dev/null) 
+	ERROR1=$(mawk '/developer/' bwa* 2>/dev/null | wc -l 2>/dev/null) 
 fi
 ERROR2=$(mawk '/error/' *.bam.log 2>/dev/null | wc -l 2>/dev/null)
-ERRORS=$(($ERROR1 + $ERROR2))
+if [ "$SNP" == "no" ]; then
+	ERROR3=0
+fi
+ERRORS=$(($ERROR1 + $ERROR2 + $ERROR3))
 
 #Move various log files to own directory
 if [ ! -d "logfiles" ]; then
 mkdir logfiles
 fi
-mv *.txt *.log log ./logfiles 2> /dev/null
+mv *.txt *.log log ./trim_reports ./logfiles 2> /dev/null
 
 #Sending a completion email
 
@@ -569,16 +590,15 @@ fi
 
 #Function for trimming reads using trimmomatic
 trim_reads(){
-    TRIMMOMATIC=$(find ${PATH//:/ } -maxdepth 1 -name trimmomatic*jar 2> /dev/null | head -1)
-    ADAPTERS=$(find ${PATH//:/ } -maxdepth 1 -name TruSeq3-PE-2.fa 2> /dev/null | head -1)
-    MLen=$(mawk '{ print length() | "sort -rn" }' lengths.txt| head -1)
-    MLen=$(($MLen / 3))
-    TW="MINLEN:$MLen"
+	
 	if [ -f $1.R.fq.gz ]; then	
-		java -jar $TRIMMOMATIC PE -threads 2 -phred33 $1.F.fq.gz $1.R.fq.gz $1.R1.fq.gz $1.unpairedF.fq.gz $1.R2.fq.gz $1.unpairedR.fq.gz ILLUMINACLIP:$ADAPTERS:4:5:5 LEADING:20 TRAILING:20 SLIDINGWINDOW:5:10 $TW &> $1.trim.log
+		# paired
+		fastp --in1 $1.F.fq.gz --in2 $1.R.fq.gz --out1 $1.R1.fq.gz --out2 $1.R2.fq.gz --cut_by_quality5 20 --cut_by_quality3 20 --cut_window_size 5 --cut_mean_quality 15 --correction $TW -q 15 -u 50 -j $1.json -h $1.html --detect_adapter_for_pe &> $1.trim.log
 	else 
-		java -jar $TRIMMOMATIC SE -threads 2 -phred33 $1.F.fq.gz $1.R1.fq.gz ILLUMINACLIP:$ADAPTERS:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:5:10 $TW &> $1.trim.log
-	fi 
+		#single
+		fastp -i $1.F.fq.gz -o $1.R1.fq.gz --cut_by_quality5 20 --cut_by_quality3 20 --cut_window_size 5 --cut_mean_quality 15 -q 15 -u 50  $TW -j $1.json -h $1.html &> $1.trim.log
+	fi
+	mv $1.html ./trim_reports &>/dev/null && mv $1.json ./trim_reports &>/dev/null
 }
 	
 	export -f trim_reads
@@ -586,36 +606,35 @@ trim_reads(){
 TrimReads () { 
 	#STACKS adds a strange _1 or _2 character to the end of processed reads, this looks for checks for errant characters and replaces them.
 	#This functionality is now parallelized and will run if only SE sequences are used.
-
-	STACKS=$(cat namelist| parallel -j $NUMProc --no-notice "zcat {}.F.fq.gz | head -1" | mawk '$0 !~ /\/1$/ && $0 !~ /\/1[ ,	]/ && $0 !~ / 1:.*[A-Z]*/' | wc -l )
+	NAMES=( `cat "namelist" `)
+	STACKS=$(cat namelist| parallel -j $NUMProc --no-notice "gunzip -c {}.F.fq.gz | head -1" | mawk '$0 !~ /\/1$/ && $0 !~ /\/1[ ,	]/ && $0 !~ / 1:.*[A-Z]*/' | wc -l )
 	FB1=$(( $NUMProc / 2 ))
 	if [ $STACKS -gt 0 ]; then
 		
 		echo "Removing the _1 character and replacing with /1 in the name of every sequence"
-		cat namelist | parallel -j $FB1 --no-notice "zcat {}.F.fq.gz | sed -e 's:_1$:/1:g' > {}.F.fq"
+		cat namelist | parallel -j $FB1 --no-notice "gunzip -c {}.F.fq.gz | sed -e 's:_1$:/1:g' > {}.F.fq"
 		rm -f *.F.fq.gz
 		cat namelist | parallel -j $FB1 --no-notice "gzip {}.F.fq"
 	fi
 
 	if [ -f "${NAMES[@]:(-1)}".R.fq.gz ]; then
 	
-		STACKS=$(cat namelist| parallel -j $NUMProc --no-notice "zcat {}.R.fq.gz | head -1" | mawk '$0 !~ /\/2$/ && $0 !~ /\/2[ ,	]/ && $0 !~ / 2:.*[A-Z]*/'| wc -l )
+		STACKS=$(cat namelist| parallel -j $NUMProc --no-notice "gunzip -c {}.R.fq.gz | head -1" | mawk '$0 !~ /\/2$/ && $0 !~ /\/2[ ,	]/ && $0 !~ / 2:.*[A-Z]*/'| wc -l )
 
 		if [ $STACKS -gt 0 ]; then
 			echo "Removing the _2 character and replacing with /2 in the name of every sequence"
-			cat namelist | parallel -j $FB1 --no-notice "zcat {}.R.fq.gz | sed -e 's:_2$:/2:g' > {}.R.fq"
+			cat namelist | parallel -j $FB1 --no-notice "gunzip -c {}.R.fq.gz | sed -e 's:_2$:/2:g' > {}.R.fq"
 			rm -f *.R.fq.gz
 			cat namelist | parallel -j $FB1 --no-notice "gzip {}.R.fq"
 		fi
 	fi
 
-	cat namelist | parallel -j $NUMProc "zcat {}.F.fq.gz | head -2 | tail -1 >> lengths.txt"
+	cat namelist | parallel -j $NUMProc "gunzip -c {}.F.fq.gz | head -2 | tail -1 >> lengths.txt"
 	MLen=$(mawk '{ print length() | "sort -rn" }' lengths.txt| head -1)
-        MLen=$(($MLen / 2))
-	TW="MINLEN:$MLen"
-	cat namelist | parallel --env trim_reads -j $FB1 trim_reads {}	
-	mkdir unpaired &>/dev/null
-	mv *unpaired*.gz ./unpaired &>/dev/null	
+    	MLen=$(($MLen / 2))
+	TW="--length_required $MLen"	
+	mkdir trim_reports &>/dev/null
+	cat namelist | parallel --env trim_reads -j $FB1 trim_reads {}
 }
 
 
