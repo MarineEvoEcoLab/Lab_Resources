@@ -74,7 +74,7 @@ Before you begin this protocol, you should order the custom oligos required for 
 * Set up 8 50mL conical tubes, labeled A, B, C, D, E, F, G, H. In each add 1mL of DNA/RNA shield
 * Wipe down scalpel handle with RNase away and a kimwipe (do this before cutting each filter) and attach new blade and keep inside foil until ready to use
 * Take a whirl pak out of the -80 freezer and unwrap the filter. Briefly look at the filter to determine roughly if there is some, few, or none present of visible larvae. Save the whirl pak
-* Fit the filter over the openning to the first conical tube. Using the scalpel slice a cross in the center of the filter, then following the edge of the filter slice out the filter so that 4 triangles of filter fall into the tube and into the DNA/RNA sheild. 
+* Fit the filter over the openning to the first conical tube. Using the scalpel slice a cross in the center of the filter, then following the edge of the filter slice out the filter so that 4 triangles of filter fall into the tube and into the DNA/RNA sheild.
 * Record the information from the whirl pak in notebook correseponding to the labeled tube
 * Repeat above steps for each filter
 * Add 100μL PK digestion buffer to each conical tube
@@ -98,7 +98,7 @@ Before you begin this protocol, you should order the custom oligos required for 
 * Transfer 700μL of this liquid to the corresponding **green** spin column. Centrifuge at 16,000 RCF for 30 seconds
 * Discard flow-through
 * Repeat previous two steps until all liquid has gone through the columns
-* Add 400μL DNA/RNA Prep Buffer to each DNA column and centrifuge at 16,000 RCF for 30 seconds. Discard flow-through
+* Add 400μL DNA/RNA Wash Buffer to each DNA column and centrifuge at 16,000 RCF for 30 seconds. Discard flow-through
 * Make DNase I master mix: [75μL DNA digestion buffer and 5μL DNase] X n (sample #)
 * Add 80μL of DNase I master mix directly to the filter of each column. Incubate at room temperature for ~15 minutes
 * Add 400μL DNA/RNA Prep Buffer to each DNA column and centrifuge at 16,000 RCF for 30 seconds. Discard flow-through
@@ -107,7 +107,7 @@ Before you begin this protocol, you should order the custom oligos required for 
 * Transfer columns to new 1.5mL tubes and add 50μL warm (70°C, you can warm in the incubator genie) RNase-free water directly to the filter in each column. Incubate at room temp for 5 minutes. Centrifuge at 16,000 RCF for 30 seconds. Keep flow-through in tube
 * Repeat previous step. Once done, you have eluted 100μL extracted RNA for each filter. Label tubes approprately and keep on ice if moving directly to quant, or aliqiot out ~4μL for Qubit and Tape Station into separtate strip tubes to avoid freeze-thaw of stock, which is kept in -80°C
 
-	
+
 ### Quantify all RNA samples
 Results will be used for calibration points during library generation
 Refer to manual during procedure (steps below are for notes and comments)
@@ -136,7 +136,7 @@ Refer to manual during procedure (steps below are for notes and comments)
 * Insert a sample tube into the sample chamber, close the lid, then press Read tube. When the reading is complete (~3 seconds), remove the sample tube.
 * Repeat step last step until all samples have been read
 
-## Visualize RNA on Tape Station 
+## Visualize RNA on Tape Station
 
 ### (Agilent Technologies 4200 Tape Station)
 
@@ -148,7 +148,7 @@ Refer to manual during procedure (steps below are for notes and comments)
 * Put on tube caps and mix in IKA vortexer for 1 minute
 * Centrifuge down tubes
 * Put in Thermocycler RNA de-nature program (72°C for 3 minutes then down to 4°C) and put on ice (note, mollusc samples don't really need this)
-* Centrifuge down tubes 
+* Centrifuge down tubes
 * Turn on laptop and Tape Station and let it warm up
 * Put in tape and load in samples (take off cap) and press start
 
@@ -156,9 +156,9 @@ Refer to manual during procedure (steps below are for notes and comments)
 
 ## Stranded mRNA Seq Library Prep
 
-#### Reagents 
+#### Reagents
 
-KAPA Stranded mRNA-Seq Kit (KAPA #KK8420). This kit includes all the enzymes and buffers required for cDNA library preparation from  isolation of poly(A)-tailed RNA. Kits include reagents for RNA fragmentation, 1st strand cDNA synthesis and 2nd strand synthesis/marking, and cDNA library preparation, including A-tailing, ligation and library amplification. 
+KAPA Stranded mRNA-Seq Kit (KAPA #KK8420). This kit includes all the enzymes and buffers required for cDNA library preparation from  isolation of poly(A)-tailed RNA. Kits include reagents for RNA fragmentation, 1st strand cDNA synthesis and 2nd strand synthesis/marking, and cDNA library preparation, including A-tailing, ligation and library amplification.
 
 Steps in Library construction:
 
@@ -182,9 +182,9 @@ Steps in Library construction:
 | EDTA| 10 mM|
 
 2. 10 mM Tris-HCL (pH 8.0 - 8.5)
-#### Equipment 
+#### Equipment
 
-* Magnetic stand and compatible tubes or striptubes 
+* Magnetic stand and compatible tubes or striptubes
 * Thermocycler
 * SPRI purification beads (KAPA Pure Beads or AmpureXP)
 
@@ -204,8 +204,8 @@ Steps in Library construction:
 *Note you cannot see the full sequence in GitHub, please look at the raw code for the whole sequence
 
 ### Anneal RNA Adapters
-Single-stranded oligos need to be annealed with their appropriate partner before ligation. 
- 
+Single-stranded oligos need to be annealed with their appropriate partner before ligation.
+
 * To create Adapter SAI1_I5, combine Universal_SAI1_Adapter with Indexed_Adapter_SAI1_I5 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40uL Universal_SAI1_Adapter, 40ul Indexed_Adapter_SAI1_I5, 10ul 10x annealing buffer and 10ul nuclease-free water). Pair Universal_SAI1_Adapter with Indexed_Adapter_SAI1_I8, Indexed_Adapter_SAI1_I9, Indexed_Adapter_SAI1_I11 in the same fasion.
 2.   In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.
 3.   Prepare final working strength concentrations of annealed adapters from this annealed stock (the appropriate working stock dilution for your experiment can be determined from the chart below). For convenience, it is possible to store the adapters at 4°C while in active use.  
@@ -232,7 +232,7 @@ For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of diff
 |**Total Master Mix Volume**| **24 μl**|
 |**Final reaction composition:**|--|
 |1st Strand Synthesis Master Mix| 5 μl|
-|Fragmented, primed RNA|10 μl| 
+|Fragmented, primed RNA|10 μl|
 |**Total Reaction Volume**| **15 μl**|
 
 |Component| Total Volume Needed for 4 RXNs (Includes 10% excess)|
@@ -243,7 +243,7 @@ For Puritz and Lotterhos 2017, we used 4000 ng starting RNA, but because of diff
 |**Total Master Mix Volume**| **66 μl**|
 |**Final reaction composition:**|--|
 |2nd Strand Synthesis and Marking Master Mix| 15 μl|
-|Fragmented, primed RNA|15 μl| 
+|Fragmented, primed RNA|15 μl|
 |**Total Reaction Volume**| **30 μl**|
 
 |Component| Total Volume Needed for 4 RXNs (Includes 10% excess)|
@@ -371,7 +371,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 ##### For Puritz and Lotterhos (2017), we chose 94 °C for 7 mins to have fragments between 150-250 bp, approximately the same size distribution as planned for our DNA libraries.
 
-* Immediately place the plate/tube on a magnet to capture the beads, and incubate until the liquid is clear. 
+* Immediately place the plate/tube on a magnet to capture the beads, and incubate until the liquid is clear.
 
 **Caution: To prevent hybridization of poly(A)- rich RNA to the capture beads, do not allow the sample to cool before placing on the magnet.**
 * Carefully remove 10 μl of the supernatant containing the eluted, fragmented, and primed RNA into a separate plate or tube.
@@ -437,7 +437,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 * Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.
 * Incubate the plate/tube at room temperature for ≥30 sec.
 * Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
-* Dry the beads at room temperature, until all of the ethanol has evaporated. 
+* Dry the beads at room temperature, until all of the ethanol has evaporated.
   * **Caution: over-drying the beads may result in dramatic yield loss.**
 * Proceed immediately to **A-Tailing** immediately, or follow the Safe Stopping Point instructions below.
 
@@ -449,7 +449,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 ---
 
 ### A-Tailing
-* A-Tailing is performed either directly after the 2nd Strand Synthesis and Marking Cleanup, or after the Safe Stopping Point, where beads were resuspended in 1X A-Tailing Buffer and stored at 4 °C for up to 24 hours. 
+* A-Tailing is performed either directly after the 2nd Strand Synthesis and Marking Cleanup, or after the Safe Stopping Point, where beads were resuspended in 1X A-Tailing Buffer and stored at 4 °C for up to 24 hours.
 
 #### A-Tailing immediately
 * Assemble the A-Tailing reaction as follows:
@@ -690,7 +690,7 @@ DSN normalization is critical ensuring an even distribution of coverage across p
 
 #### Procedure
 
-### First pool individual RNA libraries in equal quantities to create a single pool, we have experiemented with 500 ng total or 200ng of each library. 
+### First pool individual RNA libraries in equal quantities to create a single pool, we have experiemented with 500 ng total or 200ng of each library.
 
 * Create a 4X hybridization solution
 
@@ -775,7 +775,8 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 |---------|------|
 |DSN Treated Library | 20 μl|
 |2X KAPA HiFi HotStart ReadyMix| 25 μl|
-|10X KAPA Library Amplification Primer Mix| 5 μl|
+|10X KAPA Library Amplification Primer Mix| 2.5 μl|
+|Nuclease-free water| 2.5 μl|
 |**Total Volume per sample**| **50 μl**|
 
 * Mix well by pipetting up and down several times
@@ -846,9 +847,9 @@ _Originally the number of cycles was set to 12, however after a second try 14 wo
 	* cDNA and nuclease-free water to add up to 10μL
 	* 12.5μL of 2X KAPA HiFi HotStart ReadyMix
 	* 2.5μL 10X KAPA Library Amplification Primer Mix
-* Remaining volume saved 
+* Remaining volume saved
 
-### After the additional 4 cycle PCR, pool the four tubes together and perform a 1.6X SPRI® cleanup 
+### After the additional 4 cycle PCR, pool the four tubes together and perform a 1.6X SPRI® cleanup
 
 |Component|Volume|
 |---------|------|
@@ -897,7 +898,7 @@ Review quantifications for probes.  Ideally, there should be about 500 ng of pro
 |Agencourt AMPure XP  |Beckman Coulter   | A63881|
 
 ### Procedure
-* Setup a restriction digest using 1 μg of DSN library 
+* Setup a restriction digest using 1 μg of DSN library
 	* Each DSN library should be 1 μg in 12.25 μl
 
 _Note: we set up 4 digestion reactions each with 1 μg of DSN library_
@@ -1037,8 +1038,8 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 |Klenow fragment, exo– (5 u)| 1 μl|
 |**Total Volume**| **50 μl**|
 
-* Shake the tube and spin down in a microcentrifuge for 3-5 s. 
-* Incubate for 12-20 hours at 37°C. 
+* Shake the tube and spin down in a microcentrifuge for 3-5 s.
+* Incubate for 12-20 hours at 37°C.
 
 ---
 #### Optional:Control reaction
@@ -1135,7 +1136,7 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 
 ## Visualize Probes
 
-* Run probes on BioAnalyzer/Tape Station/Fragment analyzer 
+* Run probes on BioAnalyzer/Tape Station/Fragment analyzer
 
 They should look like this:
 
@@ -1148,11 +1149,11 @@ This is a safe stopping point. If you are stopping, store your sample at ‐15°
 
 ---
 
-## Preparation of whole genome libraries 
+## Preparation of whole genome libraries
 
 ### Using KAPA HyperPrep Kit with 1/2 reactions
 
-Refer to [manual](https://www.kapabiosystems.com/document/kapa-hyper-prep-kit-tds/?dl=1) during procedure (steps below are for notes and comments). 
+Refer to [manual](https://www.kapabiosystems.com/document/kapa-hyper-prep-kit-tds/?dl=1) during procedure (steps below are for notes and comments).
 
 #### For Puritz and Lotterhos 2017, genomic DNA was sheared to a modal peak of 150 bp using a Covaris sonicator.  The protocol below assumes you are starting with sheared DNA
 
@@ -1200,9 +1201,9 @@ PCR Primers:
 |PCR2_12_CTTGTA|CAAGCAGAAGACGGCATACGAGATTACAAGGTGACTGGAGTTCAGACGTGTG*C|
 
 ### Anneal Adapters
-Single-stranded oligos need to be annealed with their appropriate partner before ligation. 
- 
-* To create Adapter P1, combine each oligo 1.1 with its complementary oligo 1.2 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40ul oligo 1.1, 40ul oligo 1.2, 10ul 10x annealing buffer and 10ul nuclease-free water). Do the same for oligos 2.1 and 2.2 to create the common adapter P2. 
+Single-stranded oligos need to be annealed with their appropriate partner before ligation.
+
+* To create Adapter P1, combine each oligo 1.1 with its complementary oligo 1.2 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40ul oligo 1.1, 40ul oligo 1.2, 10ul 10x annealing buffer and 10ul nuclease-free water). Do the same for oligos 2.1 and 2.2 to create the common adapter P2.
 * In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.
 * Prepare final working strength concentrations of annealed adapters from this annealed stock. For convenience, it is possible to store the adapters at 4°C while in active use.  **For Puritz and Lotterhos 2017, a working stock of 40 μM was used, leading to a final adapter:insert molar ratio of ~ 50:1.**
 
@@ -1240,11 +1241,11 @@ Alternatively, any TruSeq style DNA adapters could be used with this protocol as
 |**Total Volume**| **22 μl**|
 |**Volume to add to each fragmented/sheared DNA sample**| **5 μl**|
 
-  * The buffer and enzyme mix should preferably be pre-mixed and added in a single pipetting step. 
+  * The buffer and enzyme mix should preferably be pre-mixed and added in a single pipetting step.
     * Premixes are stable for ≤24 hrs at room temperature, for ≤3 days at 4°C, and for ≤4 weeks at -20°C
-* Add 5 μl of End Repair and A-Tailing Master Mix to each 25 μl of fragmented/sheared DNA for a total of 30 μl. 
+* Add 5 μl of End Repair and A-Tailing Master Mix to each 25 μl of fragmented/sheared DNA for a total of 30 μl.
 * Vortex gently and spin down briefly. Return the reaction plate/tube(s) to ice. Proceed immediately to the next step.
-* Incubate in a thermocycler programmed as outlined below. 
+* Incubate in a thermocycler programmed as outlined below.
 
 |Step|Temp|Time|
 |----|----|--------|
@@ -1295,9 +1296,9 @@ Alternatively, any TruSeq style DNA adapters could be used with this protocol as
 |**Total Volume**| **55 μl**|
 
 * Notes
-  * **Each P1 adapter has a unique barcode** these barcodes can be combined with Illumina indices (added later via PCR) for high levels of multiplexing. 
+  * **Each P1 adapter has a unique barcode** these barcodes can be combined with Illumina indices (added later via PCR) for high levels of multiplexing.
   * The water, buffer and ligase enzyme should preferably be premixed and added in a single pipetting step. Premixes are stable for ≤24 hrs at room temperature, for ≤3 days at 4°C, and for ≤4 weeks at -20°C.
-  
+
 * Mix thoroughly and centrifuge briefly.
 * Incubate at 20°C for 60 min, if you can have it shaking that is ideal.
   * Note: to achieve higher conversion rates and library yields, particularly for low-input samples, consider increasing the ligation time—to a maximum of 4 hrs at 20°C, or overnight at 4°C. Please note that longer ligation times may lead to increased levels of adapter-dimer. Adapter concentrations may have to be optimized if ligation times are extended signifcantly.
@@ -1310,7 +1311,7 @@ Alternatively, any TruSeq style DNA adapters could be used with this protocol as
 |---------|------|
 |Adapter ligation reaction product| 55 μl|
 |KAPA Pure Beads | 44 μl|
-|**Total Volume**| **99 μl**| 
+|**Total Volume**| **99 μl**|
 
 * Mix thoroughly by vortexing and/or pipetting up and down multiple times.
 * Incubate the plate/tube(s) at room temperature for 15 min to bind DNA to the beads, if you can have it shaking that is ideal.
@@ -1361,12 +1362,12 @@ Each P1 adapter has a unique barcode sequence. These barcodes can be combined wi
 |PCR1_P5 Primer (Universal)  | 1.25 μl|
 |PCR2 Primer (Indexed)  | 1.25 μl|
 |Adapter-ligated library pool| 10.0 μl|
-|**Total Volume**| **25 μl**| 
+|**Total Volume**| **25 μl**|
 
 * Calculate number of cycles needed based on previous quants
 * You can make a mix of your primers if they are the same for each sample for faster pipetting
 
-|Amount of adapter-ligated DNA in amplification reaction| Number of cycles required to generate 1 μg of library DNA| 
+|Amount of adapter-ligated DNA in amplification reaction| Number of cycles required to generate 1 μg of library DNA|
 |--------------|-------------------------------------------|
 |500 ng|1-2|
 |100 ng|3-4|
@@ -1400,7 +1401,7 @@ Each P1 adapter has a unique barcode sequence. These barcodes can be combined wi
 |---------|------|
 |Adapter ligation reaction product| 25 μl|
 |KAPA Pure Beads | 25 μl|
-|**Total Volume**| **50 μl**| 
+|**Total Volume**| **50 μl**|
 
 * Mix thoroughly by vortexing and/or pipetting up and down multiple times
 * Incubate the plate/tube(s) at room temperature for 15 min to bind DNA to the beads, if you can have it shaking that is ideal.
@@ -1486,7 +1487,7 @@ Remember to perform one capture per pool of the libraries amplified with the sam
 
 _What have worked for us is 4 pools of gDNA, 6 samples with 200ng each._
 
-* Incubate at 95°C for 10 minutes, then at 65°C for 24-48 hours. Mix from time to time. This can be done in a standard thermocycler, but is probably best performed in an hybridization oven with a rotor. 
+* Incubate at 95°C for 10 minutes, then at 65°C for 24-48 hours. Mix from time to time. This can be done in a standard thermocycler, but is probably best performed in an hybridization oven with a rotor.
 
 ### Preparation of Dynabeads
 
@@ -1506,26 +1507,26 @@ If more captures are expected, increase the initial amount of beads accordingly,
 
 * Add 40 μl of the hybridization mixture to 200ul of Dynabeads
 * Gently mix with pippette or inverting tube
-* Incubate 30 min at room temperature.	
+* Incubate 30 min at room temperature.
 * Place on the magnet
 * Remove supernatant and retain in case of DNA loss.
-* Resuspend beads in 200 μl of **65°C 1x SSC / 0.1% SDS**. 
-* Mix well and incubate for 15 min, 65°C.	
+* Resuspend beads in 200 μl of **65°C 1x SSC / 0.1% SDS**.
+* Mix well and incubate for 15 min, 65°C.
 * Place on the magnet
 * Remove supernatant and retain in case of DNA loss.
-* Replace with 200 μl of **65°C 1x SSC / 0.1% SDS**. 
-* Mix well and incubate for 10 min, 65°C.	
+* Replace with 200 μl of **65°C 1x SSC / 0.1% SDS**.
+* Mix well and incubate for 10 min, 65°C.
 * Place on the magnet
 * Remove supernatant and retain in case of DNA loss.
 * Replace with 200 μl of **0.5x SSC / 0.1% SDS**.
-* Mix well, incubate for 10 min, 65°C.	
+* Mix well, incubate for 10 min, 65°C.
 * Place on the magnet
 * Remove supernatant and retain in case of DNA loss.
 * Replace with 200 μl of **0.1x SSC / 0.1% SDS**.
-* Mix well, incubate for 10 min, 65°C.	
+* Mix well, incubate for 10 min, 65°C.
 * Place on the magnet
 * Remove supernatant and retain in case of DNA loss.
-* Replace with 22 μl of 80°C H20 
+* Replace with 22 μl of 80°C H20
 * Mix well, incubate for for 10 min, 80°C.
 * Place on magnet
 * Remove and **SAVE THE SUPERNATANT** 21 μl (this contains the hybridization-enriched fragments)
@@ -1540,7 +1541,7 @@ If more captures are expected, increase the initial amount of beads accordingly,
 |KAPA HiFi HotStart ReadyMix (2X) | 12.5 μl|
 |KAPA Primer Mix (Universal)  | 2.5 μl|
 |Enriched Library| 10.0 μl|
-|**Total Volume**| **25 μl**| 
+|**Total Volume**| **25 μl**|
 
 **NOTE:*** It's important to use the same INDEX primer as the original library prep!
 
@@ -1578,7 +1579,7 @@ _We decided on using 12 cycles because that gave the desired amplification._
 * Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.
 * Dry the beads at room temperature, until all of the ethanol has evaporated. **Caution: over-drying the beads may result in dramatic yield loss.**
 * Remove the plate/tube from the magnet.
-* Thoroughly resuspend the beads in 25 μl of 10 mM Tris-HCl (pH 8.0). 
+* Thoroughly resuspend the beads in 25 μl of 10 mM Tris-HCl (pH 8.0).
 * Incubate the plate/tube at room temperature for 5 min to allow the DNA to elute off the beads.
 * Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
 * Transfer 24 μl of the clear supernatant to a new plate/tube and proceed to next step.
@@ -1604,6 +1605,4 @@ _We decided on using 12 cycles because that gave the desired amplification._
 
 ### Verify
 
-* Run samples on BioAnalyzer/Tape Station/Fragment analyzer 
-
-
+* Run samples on BioAnalyzer/Tape Station/Fragment analyzer
