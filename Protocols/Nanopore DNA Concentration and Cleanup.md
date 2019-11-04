@@ -16,7 +16,7 @@
 10.	Spin the tube quickly (mini-fuge, or a “short” up to 3000xg)
 11.	Place tube on magnetic rack, pipet off any residual ethanol with a p10 and fine tip
 12.	Allow tube to dry open on magnetic rack for 1 minute.
-13.	Remove tube from rack. Add 50 uL EB, Tris, or H20.
+13.	Remove tube from rack. Add 50 uL nuclease free H20.
 14.	Gently flick tube until pellet comes off the side, and continue flicking until no bits of pellet are visible. Do not pipet up and down, but a pipet tip can be used to stir stubborn pellets gently.
 15.	Place tube in rack and leave for 20 minutes undisturbed to elute long fragments. Then leave tube on the nutating mixer at RT for at least 20 minutes (**up to overnight**) to elute DNA off beads. Longer times are necessary for longer fragments.
 16.	Place tube on magnetic rack, and wait ~5-10 minutes for liquid to go clear.
