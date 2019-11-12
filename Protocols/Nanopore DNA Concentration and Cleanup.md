@@ -1,10 +1,10 @@
-# 0.4X Bead Cleanup for Nanopore Sequencing
+# 0.45X Bead Cleanup for Nanopore Sequencing
 
 #### Place beads at RT 30 minutes before use to allow them to equilibrate!
 #### Make fresh 80% EtOH
 
 ## Protocol
-1.	Add 0.45X beads to DNA. (If 80uL DNA, add 45uL beads)
+1.	Add 0.45X beads to DNA. (If 80uL DNA, add 36uL beads)
 2.	Mix GENTLY by flicking tubes and a very brief spin down in a table top minifuge to bring to the bottom
 3.	Leave at RT 20 minutes on a shaker at 300rpm
 4.	Place on magnet plate for 10 minutes
