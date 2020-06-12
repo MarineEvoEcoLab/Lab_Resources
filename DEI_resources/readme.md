@@ -1,7 +1,7 @@
 
 ## DEI resources
 
-This folder will function to pool our resources covering diversity, equity, and inclusion. In this folder you will find a subdirectory to store pdf or other pritned documents. You will also find a csv file that contains links to web resources. If you wish to add to either the csv document or papers feel free to do so. If you have any question please reach out to Jacob Green.
+This folder will function to pool our resources covering diversity, equity, and inclusion. In this folder you will find a subdirectory to store pdf or other pritned documents. You will also find a csv file that contains links to web resources. If you wish to add to either the csv document or papers feel free to do so. If you have any questions please reach out to Jacob Green.
 
 Here is a current list of online resources regarding diversity, equity, and inclusion topics for the Puritz lab.
 
