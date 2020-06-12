@@ -20,4 +20,4 @@ You write a markdown file in a text editor application. Here are some options:
 - [Notepad++](https://notepad-plus-plus.org/)
 
 
-**Very important: having an online lab notebook is NOT substituable for having a physical lab notebook. The purpose for this is knowlege sharing and reproducibly only. 
+**Very important: having an online lab notebook is NOT substituable for having a physical lab notebook. The purpose for this is knowlege sharing and reproducibly only.**
