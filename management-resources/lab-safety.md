@@ -40,7 +40,7 @@ The URI Environmental Health and Safety staff are also very responsive over emai
 
 **What Chemicals are in our Lab?**
 
-[Solid Chemicals](https://docs.google.com/spreadsheets/d/1X6wGnVPajCePGbsdadBYH5-mFtM8woIFlJUdVu7yNpM/edit?usp=sharing)
-[Liquid Chemicals](https://docs.google.com/spreadsheets/d/1ZXyAUyh6RUrOU4ygkGSEkcTwAymowyCKYtpdmknWDQI/edit?usp=sharing)
-[Flammable Cabinet](https://docs.google.com/spreadsheets/d/1zK0xu15-GbZZHbMn1c6KBIiyrqHP2JBaZk9D6JZS9m4/edit?usp=sharing)
-[Acid Cabinet](https://docs.google.com/spreadsheets/d/1dwlUYW4-N5DY5oxGRozCAJFwtQqWlj5EFX-ifgvy3RY/edit?usp=sharing)
+[Solid Chemicals](https://docs.google.com/spreadsheets/d/1X6wGnVPajCePGbsdadBYH5-mFtM8woIFlJUdVu7yNpM/edit?usp=sharing)  
+[Liquid Chemicals](https://docs.google.com/spreadsheets/d/1ZXyAUyh6RUrOU4ygkGSEkcTwAymowyCKYtpdmknWDQI/edit?usp=sharing)  
+[Flammable Cabinet](https://docs.google.com/spreadsheets/d/1zK0xu15-GbZZHbMn1c6KBIiyrqHP2JBaZk9D6JZS9m4/edit?usp=sharing)  
+[Acid Cabinet](https://docs.google.com/spreadsheets/d/1dwlUYW4-N5DY5oxGRozCAJFwtQqWlj5EFX-ifgvy3RY/edit?usp=sharing)  
