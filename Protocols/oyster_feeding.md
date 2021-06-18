@@ -9,7 +9,8 @@ For the adult oysters, we use [Shellfish Diet 1800](https://reedmariculture.com/
 4. Mix diluted cells very well.
 5. Pour diluted mix through 20 micron sieve into the tank, making sure to move around to all parts of the tank. The sieve will help to catch any big clumps of cells.
 6. Clean graduated cylinder, bottle, and sieve in freshwater after feeding and place in bin to dry.
-7. Return Shellfish Diet to refrigerator in Blount and return siphon to Blount 104.
+7. Mark on the whiteboard schedule that oysters where fed for that day.
+8. Return Shellfish Diet to refrigerator in Blount and return siphon to Blount 104.
 
 [Video walkthrough starting at step 2](https://drive.google.com/drive/folders/1rC78a5fl5wyeqQ5xRY02yMZaqw_RhHd3)
 
