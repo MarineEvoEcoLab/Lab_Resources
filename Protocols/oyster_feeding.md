@@ -15,6 +15,19 @@ For the adult oysters, we use [Shellfish Diet 1800](https://reedmariculture.com/
 [Video walkthrough starting at step 2](https://drive.google.com/drive/folders/1rC78a5fl5wyeqQ5xRY02yMZaqw_RhHd3)
 
 ## Larvae feeding
+For larvae, we use [Isochrysis](https://reedmariculture.com/collections/bivalve-hatchery-feeds/products/isochrysis) and [Pavlova](https://reedmariculture.com/collections/bivalve-hatchery-feeds/products/pavlova) from Reed Mariculture. We've feed the larval buckets daily, using the steps outlined below:
+1. Before feeding, you'll want to remove and clean the banjo filter in each bucket. Do this treatment by treatment.
+Use the PVC caps to quickly cap off the 1/2" pipe after removing the banjo.
+After removing the banjo, spray it off with filtered seawater into the bucket to remove any larvae that could be stuck to it.
+Spray off the banjo with tap water on high flow making sure to remove any debris.
+Rinse banjo in filtered seawater and return to bucket.
+2. For feeding 9 buckets, measure out 18mL DI water in a graduated cylinder.
+3. Pipette 900uL of Iso and 900uL of Pavlova into the DI water, using a new tip each time. Be sure to pipette up and down to fully empty the tip.
+4. Dilute mix up to 36mL with DI water.
+5. Transfer 4mL of diluted mix to a falcon tube and add roughly 40mL filtered seawater.
+6. Pour mixture in the falcon tube through a 25 micron sieve into the bucket.
+7. Repeat steps 5 and 6 for each bucket.
+8. Rinse all supplies and return to bin.
 
 ## Juvenile feeding
 
