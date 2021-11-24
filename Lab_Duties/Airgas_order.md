@@ -1,6 +1,6 @@
 # Order Request Email for Airgas
 
-Edit the following template, and send to *<WarwickRI.Sales@airgas.com>* and *cc Jon <jpuritz@uri.edu>*.
+Edit the following template, and send to *<WarwickRI.Sales@airgas.com>* and *cc Jon <jpuritz@uri.edu>*.\
 Account number and PO# can be found above the desk in Blount 104.
 _______________________________
 Hello,
