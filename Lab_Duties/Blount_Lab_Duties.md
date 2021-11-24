@@ -1,10 +1,10 @@
 # Lab Duties and Tasks for Bay Campus Lab
-**The Mitochondria (Blount 104, Aquarium Bldg)**
-\n*Lab members responsible: Amy, Megan, Gabe*
+**The Mitochondria (Blount 104, Aquarium Bldg)**\
+*Lab members responsible: Amy, Megan, Gabe*
 
 ## Ordering for the Bay Campus
-*updated 11/24/2021*
-\nFor ease of delivery, almost all packages for the Bay Campus lab are delivered to the main lab at CBLS, picked up, and brought to the Bay Campus.
+*updated 11/24/2021*\
+For ease of delivery, almost all packages for the Bay Campus lab are delivered to the main lab at CBLS, picked up, and brought to the Bay Campus.
 Ordering can be done online through established accounts in the shared PLOMME purchasing folder. All orders must be tax exempt.
 ### Guide to receiving packages
 [Comprehensive protocol for processing packages at CBLS](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols_and_Lab_Resources/Lab_Maintenance/Putting_Away_Packages.md). The only major addition to this would be storing packing slips *(see next section)*.
