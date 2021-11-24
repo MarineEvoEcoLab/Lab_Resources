@@ -26,8 +26,8 @@ If you have to return anything via Amazon, follow the returns prompts for that i
 *updated 11/24/2021*
 * Ordering CO2 and N2 from Airgas as needed using this [template email](Airgas_order.md)
 * Make sure to be at the Blount lab for the delivery day
-* Disconnect regulator from empty cylinders and cap empty cylinders double checking that they are labeled "empty"
-* After the arrival of the cylinders, ensure that they are secured to the wall and tag them as "full" using the white tags provided by Airgas
+* Disconnect regulator from empty cylinders (use a wrench if needed) and cap empty cylinders, double checking that they are labeled "empty"
+* After the arrival of the new cylinders, ensure that they are secured to the wall and tag them as "full" using the white tags provided by Airgas
 * Once secured, attach them to the regulator, tightening the connection with a wrench
 * Carefully and *slowly* turn on the gas by opening the valve fully to the left then do one half turn to the right
 * Listen and feel for leaks all the way down the line (regulator to solenoids)
