@@ -1,4 +1,4 @@
-# EecSeq Lab Protocol
+# EecSeq Lab Protocol OLD!! Use this one: https://github.com/MarineEvoEcoLab/EecSeq/blob/master/Protocol.md
 
 The Expressed Exome Capture Sequencing protocol is designed to create exome capture probes directly from RNA.  The probes are then used from hybrid capture of exome DNA sequences, allowing for genotyping of alleles at expressed genes.
 
