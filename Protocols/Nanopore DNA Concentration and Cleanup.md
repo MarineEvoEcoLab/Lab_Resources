@@ -1,7 +1,9 @@
 # Bead Cleanup for Nanopore Sequencing Post Pippin Prep High Pass Size Selection
 
-#### Place beads at RT 30 minutes before use to allow them to equilibrate!
-#### Make fresh 80% EtOH
+#### Version 1.0.0
+
+### Place beads at RT 30 minutes before use to allow them to equilibrate!
+### Make fresh 80% EtOH
 
 ## Protocol
 1.	Add 1.0X beads to DNA. (If 80 µL DNA, add 80 µL beads)
