@@ -1,5 +1,7 @@
 # Re-suspending Lyophilized Oligonucleotides
 
+#### Protocol Version 1.0.0 
+
 Synthetic oligonucleotides are usually shipped from the vendors in lyophilized form meaning the DNA solution has been freeze-dried to remove all liquid, leaving the oligo as a dry residue in the bottom of the tube.  The oligo must be re-suspended in liquid before it can be used as a primer in PCR, or for other molecular biology applications.  
 
 ## Buffer Choice
