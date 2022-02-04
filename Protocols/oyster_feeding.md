@@ -1,7 +1,11 @@
 # Protocol for oyster feeding
+
+#### Version 1.0.0
+
 This protocol walks through the feeding of adult broodstock oysters and oyster larvae through development to juveniles. All algal foods (Shellfish Diet 1800 and pure algal cultures) can be found in the yellow refrigerator outside of Blount 104. There will be a carboy of Type I DI water in the Aquarium building near the broodstock tank, in Blount 104, or for now there are smaller bottles in the yellow fridge.
 
 ## Adult broodstock feeding
+
 For the adult oysters, we use [Shellfish Diet 1800](https://reedmariculture.com/products/shellfish-diet) (Isochrysis, Pavlova, Tetraselmis, Thalassiosira weissflogii and Thalassiosira psuedonana). While conditioning for spawning, we'll feed broodstock daily using the steps outlined below:
 1. Before feeding, you'll want to clean the tank of debris, psuedofeces, and feces. To do so use the handheld plastic siphon to siphon up unwanted debris into a bucket or the outflow drain.
 2. Measure out the Shellfish Diet slurry in graduated cylinder (account for 0.5ml per adult; e.g. for 100 oysters, you would measure out 50ml) and pour into wide mouthed container or bottle.
@@ -15,6 +19,7 @@ For the adult oysters, we use [Shellfish Diet 1800](https://reedmariculture.com/
 [Video walkthrough starting at step 2](https://drive.google.com/drive/folders/1rC78a5fl5wyeqQ5xRY02yMZaqw_RhHd3)
 
 ## Larvae feeding
+
 For larvae, we use [Isochrysis](https://reedmariculture.com/collections/bivalve-hatchery-feeds/products/isochrysis) and [Pavlova](https://reedmariculture.com/collections/bivalve-hatchery-feeds/products/pavlova) from Reed Mariculture. We've feed the larval buckets daily, using the steps outlined below:
 1. Before feeding, you'll want to remove and clean the banjo filter in each bucket. Do this treatment by treatment.
 Use the PVC caps to quickly cap off the 1/2" pipe after removing the banjo.

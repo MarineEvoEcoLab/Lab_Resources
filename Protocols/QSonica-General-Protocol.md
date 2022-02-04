@@ -1,5 +1,7 @@
 # General QSonica Protocol
 
+#### Version 1.0.0
+
 We have the [Q800R3 Sonicator](https://www.sonicator.com/collections/sonicators/products/q800r-sonicator)
 
 This is a general protocol for operating the sonicator, specifics of the tubes used and settings in the machine will need to be optimized for your specific application. Also feel free to look at the [manual](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/Q800R3_Instruction_Manual.pdf)
