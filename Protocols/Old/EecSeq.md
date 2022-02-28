@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Protocols/EecSeq.md
 ---
 output:
   word_document: default
