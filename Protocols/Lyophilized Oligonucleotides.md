@@ -1,6 +1,6 @@
 # Re-suspending Lyophilized Oligonucleotides
 
-#### Protocol Version 1.0.0 
+#### Protocol Version 1.1.0 
 
 Synthetic oligonucleotides are usually shipped from the vendors in lyophilized form meaning the DNA solution has been freeze-dried to remove all liquid, leaving the oligo as a dry residue in the bottom of the tube.  The oligo must be re-suspended in liquid before it can be used as a primer in PCR, or for other molecular biology applications.  
 
@@ -20,60 +20,71 @@ The calculation of how much liquid to add goes as follows:
 
 The nanomoles DNA present in the tube is listed on the data sheet that ships with the oligo and may also be printed on the tube label (look for “nMoles”).  Labeled primers from ABI may be given in picomoles (“pMoles”) in which case you divide by 1000 to get the nanomoles (e.g. 10,000 picomoles = 10 nmoles).
 
-*For a shortcut calculation, just multiply the nMoles number by 5 to get the volume in µL of TE (or low TE) to add to yield a 200µM stock solution.  For a 500µM stock solution multiply by 2.*
+*For a shortcut calculation, just multiply the nMoles nµmber by 5 to get the volume in µL of TE (or low TE) to add to yield a 200µM stock solution.  For a 500µM stock solution multiply by 2.*
 
 ## Example calculations from lyophilizing to working solution
 
-For the Puritz lab we typically design and order oligonucleotides from Integrat DNA Technologies [IDT](https://idtdna.com/pages). These small 1.5 ml tubes will have the name of the oligonucleptide ordered and other information including molecular weight in nanomoles. We will make 200 um stock adapter concentration. This gives us enough flexibility to alter annealed working solution for our library synthesis workflows. Next we will create an annealed adapter solution at 40 ul using a 1:1 ration with annealing buffer. Lastly we will make a final annealed adapter solution for lirabry synthesis. While this seems a bit complicated these dilutions allow for us to store stock adapters for long periods of time.
+For the Puritz lab we typically design and order oligonucleotides from Integrat DNA Technologies [IDT](https://idtdna.com/pages). These small 1.5 ml tubes will have the name of the oligonucleptide ordered and other information including molecular weight in nanomoles. We will make 200 µm stock adapter concentration. This gives us enough flexibility to alter annealed working solution for our library synthesis workflows. Next we will create an annealed adapter solution at 40 ul using a 1:1 ration with annealing buffer. Lastly we will make a final annealed adapter solution for lirabry synthesis. While this seems a bit complicated these dilutions allow for us to store stock adapters for long periods of time.
 
 1) Lets say we have a paired adapter solution called SaIIa and SaIIb. This is a custom designed adapter for our EecSeq protocol that are ligated to mRNA libraries. We will used the molecular weight of the dried adapter to calcualte the volume of Low TE buffer to add.
 
    * Salla = 87.6 nanomoles
-     * ul Low TE = (87.5 nmol) / (200 um) * 1000
+     * ul Low TE = (87.5 nmol) / (200 µm) * 1000
      * ul Low TE = 437.5
    * Sallb = 98.5 nanomoles
-     * ul Low TE = (98.5 nmol) / (200 um) * 1000
+     * ul Low TE = (98.5 nmol) / (200 µm) * 1000
      * ul Low TE = 492.5
 
     **For these solutions we will spin down the dried tubes first then add the calculated volume of Low TE buffer solutions directly into the tubes.**
 
-2) Next we want to make a working solution that we can anneal. Annealing the paired adapters takes some time so it is helpful to have this finished a day or so before you are going to do library synthesis. There are a few aspects of your library preparation that we need to know before starting.
+2) Next we want to make an annealed adapter stock. Annealing the paired adapters takes some time so it is helpful to have this finished a day or so before you are going to do library synthesis. 
+
+* What do we have?
+  * 200 µm of each adapter
+* What do we want?  
+  * 40 µm working solution to anneal the adpaters
+
+* Example protocol for making 40 µm annealed adapter solution
+
+   * To get 100 ul 40 µm solution
+        * Combine:
+          * 20 ul of 200 µm Salla 
+          * 20 ul of 200 µm Sallb 
+          * 10 ul of 10 X annealing buffer 
+          * 50 ul Nuclease free water
+        * In a thermocyler, incubate at 97.5ºC for 2.5 minutes, and then cool at a rate of not greater than 3C per minute until the solution reaches a temperature of 21ºC. Hold at 4ºC.  
+
+3) Next we want to make a working solution for library prep. There are a few aspects of your library preparation that we need to know before starting.
 
    * What concentration of DNA or RNA are you using for your library synthesis?
   
    * What is the reccomended adapter concentration?
 
-     * In our case we are using 350 ng/ul as input for our RNA library synthesis
+     * In our example, we are using 350 ng/ul as input for our RNA library synthesis
   
      * According to the KAPA Hyper Prep Kit the adapter stock concentration is in the table below
 
       | Concentration of starting material | Annealed adapter concentration |
       |------------------------------------|--------------------------------|
-      | 50 - 499 ng | 1.5 um |
-      | 500 - 1000 ng | 7 um |
+      | 50 - 499 ng | 1.5 µm |
+      | 500 - 1000 ng | 7 µm |
 
-   * Since we are starting with 350 ng RNA starting material we need 1.5 um annealed adapter concentration. This is a pretty low concerntation to work with so we are going to make a 40 um adapter solution for annealing.
+   * Since we are starting with 350 ng RNA starting material, we need 1.5 µm annealed adapter concentration. This is a pretty low concerntation to work with so we are going to make a 40 µm adapter solution for annealing.
   
    * What do we have?
-     * 200 um of each adapter
+     * 40 µm of annealed adapter stock
      * 350 ng of input RNA
 
    * What do we want?  
-      * 40 um working solution to anneal the adpaters
-      * 1.5 um of an annealed adapter concentration
+      * 1.5 µm of a working annealed adapter concentration
 
-3) Example protocol for making 40 um annealed adapter solution
 
-   * To get 100 ul 40 um solution
-        * 10 ul of 200 um Salla + 10 ul of 200 um Sallb + 40 ul of 10 X annealing buffer + 40 ul Nuclease free water
-        * In a thermocyler, incubate at 97.5 C for 2.5 minutes, and then cool at a rate of not greater than 3C per minute until the solution reaches a temperature of 21 C. Hold at 4 C.  
+4) Protocol for making 1.5 µm annealed working solution
 
-4) Protocol for making 1.5 um annealed working solution
+      * To get a 100 ul 1.5 µm solution
+        * 3.75 ul of 40 µm annealed adapter solution + 96.25 ul of Low TE buffer
 
-      * To get a 100 ul 1.5 um solution
-        * 3.8 ul of 40 um annealed adapter solution + 96.2 ul of Low TE buffer
-
-  We now have our final annealed working solution to use in mRNA library preparation. We can store this solution in a 4C fridge for short term use. Keep the 40 um and 200 um adapter solutions stored in the - 20C fridge.
+  We now have our final annealed working solution to use in mRNA library preparation. We can store this solution in a 4ºC fridge for short term use. Keep the 40 µm and 200 µm adapter solutions stored in the -20ºC fridge.
 
 ## Protocol for resuspending dried oligos
 
