@@ -60,7 +60,7 @@ For the Puritz lab we typically design and order oligonucleotides from Integrat 
   
    * What is the reccomended adapter concentration?
 
-     * In our example, we are using 350 ng/ul as input for our RNA library synthesis
+     * In our example, we are using 4000 ng/ul as input for our RNA library synthesis
   
      * According to the KAPA Hyper Prep Kit the adapter stock concentration is in the table below
 
@@ -69,7 +69,7 @@ For the Puritz lab we typically design and order oligonucleotides from Integrat 
       | 50 - 499 ng | 1.5 µm |
       | 500 - 1000 ng | 7 µm |
 
-   * Since we are starting with 4000 ng RNA starting material, we need 1400 µm annealed adapter concentration. This is a pretty high concerntation to work with so we are going to make a 40 µm adapter solution for annealing.
+   * Since we are starting with 4000 ng RNA starting material, we need 7 µm annealed adapter concentration. This is a pretty high concerntation to work with so we are going to make a 40 µm adapter solution for annealing.
   
    * What do we have?
      * 40 µm of annealed adapter stock
@@ -82,7 +82,7 @@ For the Puritz lab we typically design and order oligonucleotides from Integrat 
 4) Protocol for making 1.5 µm annealed working solution
 
       * To get a 100 ul 7 µm solution
-        * 3.5 ul of 40 µm annealed adapter solution + 96.5 ul of Low TE buffer
+        * 17.5 ul of 40 µm annealed adapter solution + 82.5 ul of Low TE buffer
 
   We now have our final annealed working solution to use in mRNA library preparation. We can store this solution in a 4ºC fridge for short term use. Keep the 40 µm and 200 µm adapter solutions stored in the -20ºC fridge.
 
