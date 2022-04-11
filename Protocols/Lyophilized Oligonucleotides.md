@@ -69,20 +69,20 @@ For the Puritz lab we typically design and order oligonucleotides from Integrat 
       | 50 - 499 ng | 1.5 µm |
       | 500 - 1000 ng | 7 µm |
 
-   * Since we are starting with 350 ng RNA starting material, we need 1.5 µm annealed adapter concentration. This is a pretty low concerntation to work with so we are going to make a 40 µm adapter solution for annealing.
+   * Since we are starting with 4000 ng RNA starting material, we need 1400 µm annealed adapter concentration. This is a pretty high concerntation to work with so we are going to make a 40 µm adapter solution for annealing.
   
    * What do we have?
      * 40 µm of annealed adapter stock
-     * 350 ng of input RNA
+     * 4000 ng of input RNA
 
    * What do we want?  
-      * 1.5 µm of a working annealed adapter concentration
+      * 7 µm of a working annealed adapter concentration
 
 
 4) Protocol for making 1.5 µm annealed working solution
 
-      * To get a 100 ul 1.5 µm solution
-        * 3.75 ul of 40 µm annealed adapter solution + 96.25 ul of Low TE buffer
+      * To get a 100 ul 7 µm solution
+        * 3.5 ul of 40 µm annealed adapter solution + 96.5 ul of Low TE buffer
 
   We now have our final annealed working solution to use in mRNA library preparation. We can store this solution in a 4ºC fridge for short term use. Keep the 40 µm and 200 µm adapter solutions stored in the -20ºC fridge.
 
